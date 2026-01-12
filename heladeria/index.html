@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helados Artesanales | Delicias Congeladas - Heladería Premium</title>
+    <meta name="description" content="Los mejores helados artesanales de la ciudad. Sabores únicos, ingredientes naturales y calidad premium. ¡Pide ahora por WhatsApp!">
+    <meta name="keywords" content="helados, artesanales, postres, heladería, sabores, delivery, pedidos">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="img/heladofavicon.png">
+</head>
+<body>
+    <!-- Header y Navegación -->
+    <header class="header">
+        <div class="container">
+            <div class="logo-container">
+                <div class="logo">
+                    <i class="fas fa-ice-cream"></i>
+                    <div class="logo-text">
+                        <span class="logo-name">Delicias Congeladas</span>
+                        <span class="logo-tagline">Helados Artesanales</span>
+                    </div>
+                </div>
+            </div>
+            
+            <nav class="navbar">
+                <ul class="nav-menu">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#sabores">Sabores</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li class="login-btn-mobile"><a href="#" id="openLoginModal">Iniciar Sesión</a></li>
+                </ul>
+                <div class="login-btn-desktop">
+                    <button id="openLoginModalDesktop">Iniciar Sesión</button>
+                </div>
+                <div class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección Hero -->
+    <section class="hero" id="inicio">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Los mejores helados <span class="highlight">artesanales</span> de la ciudad</h1>
+                <p class="hero-subtitle">Elaborados con ingredientes 100% naturales, sin conservantes ni colorantes artificiales.</p>
+                <div class="hero-buttons">
+                    <a href="#sabores" class="btn btn-primary">Ver Sabores</a>
+                    <a href="https://wa.me/5491112345678?text=Hola,%20quiero%20hacer%20un%20pedido" class="btn btn-whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Pedir por WhatsApp
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="icecream-circle">
+                    <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" alt="Helados artesanales de diferentes sabores">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Nosotros -->
+    <section class="about" id="nosotros">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nuestra Historia</h2>
+                <p class="section-subtitle">Tradición y sabor desde 1995</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>En <strong>Delicias Congeladas</strong> llevamos más de 25 años creando los helados más deliciosos de la región. Nuestra pasión por los helados artesanales nos ha llevado a experimentar con sabores únicos y combinaciones innovadoras.</p>
+                    <p>Utilizamos solo ingredientes naturales de la más alta calidad: frutas frescas de temporada, chocolate belga, vainilla de Madagascar y leche de granjas locales. Sin conservantes, colorantes artificiales ni aditivos.</p>
+                    <div class="features">
+                        <div class="feature">
+                            <i class="fas fa-leaf"></i>
+                            <h3>100% Natural</h3>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-heart"></i>
+                            <h3>Hecho con amor</h3>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-award"></i>
+                            <h3>Calidad Premium</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1570197788417-0e82375c9371?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" alt="Heladería Delicias Congeladas">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Sabores -->
+    <section class="flavors" id="sabores">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nuestros Sabores</h2>
+                <p class="section-subtitle">Descubre nuestra exquisita selección</p>
+            </div>
+            <div class="flavors-grid">
+                <div class="flavor-card">
+                    <div class="flavor-image">
+                        <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Helado de chocolate">
+                    </div>
+                    <div class="flavor-info">
+                        <h3>Chocolate Belga</h3>
+                        <p>Elaborado con chocolate belga premium y trozos de cacao.</p>
+                        <span class="flavor-price">$8.500</span>
+                    </div>
+                </div>
+                <div class="flavor-card">
+                    <div class="flavor-image">
+                        <img src="https://images.unsplash.com/photo-1501443762994-82bd5dace89a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Helado de fresa">
+                    </div>
+                    <div class="flavor-info">
+                        <h3>Fresas Silvestres</h3>
+                        <p>Fresas naturales seleccionadas para un sabor intenso y fresco.</p>
+                        <span class="flavor-price">$7.900</span>
+                    </div>
+                </div>
+                <div class="flavor-card">
+                    <div class="flavor-image">
+                        <img src="https://images.unsplash.com/photo-1536599424071-0b215a388ba7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Helado de vainilla">
+                    </div>
+                    <div class="flavor-info">
+                        <h3>Vainilla Tahití</h3>
+                        <p>Vainilla de Tahití con un toque de canela y leche fresca.</p>
+                        <span class="flavor-price">$7.500</span>
+                    </div>
+                </div>
+                <div class="flavor-card">
+                    <div class="flavor-image">
+                        <img src="https://images.unsplash.com/photo-1541599188778-cdc73298e8fd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Helado de menta">
+                    </div>
+                    <div class="flavor-info">
+                        <h3>Menta Granizada</h3>
+                        <p>Refrescante menta con trozos de chocolate negro.</p>
+                        <span class="flavor-price">$8.200</span>
+                    </div>
+                </div>
+            </div>
+            <div class="flavors-cta">
+                <p>¿No encuentras tu sabor favorito? <strong>Tenemos más de 25 sabores disponibles!</strong></p>
+                <a href="https://wa.me/5491112345678?text=Hola,%20quiero%20consultar%20los%20sabores%20disponibles" class="btn btn-whatsapp" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Consultar Sabores
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section class="contact" id="contacto">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contáctanos</h2>
+                <p class="section-subtitle">Visítanos o pide delivery</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Dirección</h3>
+                            <p>Av. Siempre Viva 123, Ciudad</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Horario</h3>
+                            <p>Lunes a Domingo: 10:00 AM - 10:00 PM</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Teléfono</h3>
+                            <p>+54 9 11 1234-5678</p>
+                        </div>
+                    </div>
+                    <div class="social-buttons">
+                        <h3>Síguenos en redes sociales</h3>
+                        <div class="social-icons">
+                            <a href="https://facebook.com" class="social-btn facebook" target="_blank">
+                                <i class="fab fa-facebook-f"></i> Facebook
+                            </a>
+                            <a href="https://instagram.com" class="social-btn instagram" target="_blank">
+                                <i class="fab fa-instagram"></i> Instagram
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-map">
+                    <div class="map-placeholder">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <p>Mapa de ubicación de la heladería</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo">
+                        <i class="fas fa-ice-cream"></i>
+                        <div class="logo-text">
+                            <span class="logo-name">Delicias Congeladas</span>
+                            <span class="logo-tagline">Helados Artesanales</span>
+                        </div>
+                    </div>
+                    <p>Los mejores helados artesanales desde 1995</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#sabores">Sabores</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Suscríbete a nuestro newsletter</h3>
+                    <p>Recibe promociones exclusivas y novedades</p>
+                    <form id="newsletterForm">
+                        <input type="email" placeholder="Tu correo electrónico" required>
+                        <button type="submit">Suscribirse</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Delicias Congeladas. Todos los derechos reservados.</p>
+                <p>Desarrollado con ❤️ para los amantes del helado</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botón flotante de WhatsApp -->
+    <a href="https://wa.me/5491112345678?text=Hola,%20quiero%20hacer%20un%20pedido" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Modal de Inicio de Sesión -->
+    <div class="modal-overlay" id="loginModal">
+        <div class="modal-container">
+            <div class="modal-header">
+                <h2>Iniciar Sesión</h2>
+                <button class="modal-close" id="closeLoginModal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form id="loginForm">
+                    <div class="form-group">
+                        <label for="email">Correo electrónico</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Contraseña</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <div class="form-options">
+                        <div class="remember">
+                            <input type="checkbox" id="remember" name="remember">
+                            <label for="remember">Recordarme</label>
+                        </div>
+                        <a href="#" class="forgot-password">¿Olvidaste tu contraseña?</a>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Iniciar Sesión</button>
+                    <div class="form-footer">
+                        <p>¿No tienes una cuenta? <a href="#" id="showRegister">Regístrate aquí</a></p>
+                    </div>
+                </form>
+                
+                <form id="registerForm" class="hidden">
+                    <div class="form-group">
+                        <label for="regName">Nombre completo</label>
+                        <input type="text" id="regName" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="regEmail">Correo electrónico</label>
+                        <input type="email" id="regEmail" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="regPassword">Contraseña</label>
+                        <input type="password" id="regPassword" name="password" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="regConfirmPassword">Confirmar contraseña</label>
+                        <input type="password" id="regConfirmPassword" name="confirmPassword" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="checkbox" id="terms" name="terms" required>
+                        <label for="terms">Acepto los <a href="#">términos y condiciones</a></label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Registrarse</button>
+                    <div class="form-footer">
+                        <p>¿Ya tienes una cuenta? <a href="#" id="showLogin">Inicia sesión aquí</a></p>
+                    </div>
+                </form>
+                
+                <div class="login-message" id="loginMessage"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/auth.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
